@@ -1,0 +1,208 @@
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1 {
+    font-size: 4em;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 1.8em;
+    }
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+.home-hero {
+    background-image: url(images/headerpic.png);
+    background-size: cover;
+}
+
+.home-hero h1 {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0;
+}
+
+.home-photo {
+    float: right;
+    max-width: 40%;
+    height: auto;
+    margin: 50px 0 10px 20px;
+}
+
+.home-photo2 {
+    float: right;
+    max-width: 40%;
+    height: auto;
+    margin: 50px 0 10px 20px;
+}
+header {
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    text-shadow: 5px;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    text-shadow: 5px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    text-shadow: 5px;
+    color: white;
+}
+
+h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    text-shadow: 5px;
+    color: white;
+}
+
+h4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    text-shadow: 5px;
+}
+
+body {
+    margin: 0;
+    font-family: 'montserrat', sans-serif;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    background: linear-gradient(hotpink,darkcyan,hotpink); /* Dark blue to light pink gradient */
+}
+
+main {
+    min-height: 100vh; /* Take full viewport height */
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold; /* Make text bold */
+    font-size: 1.2em; /* Set font size to larger */
+    color: white; /* Set text color to white */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* Add text shadow */
+}
+/* Navigation Bar */
+
+nav {
+    font-family: 'Dancing Script', cursive;
+    background-color: hotpink; /* Dark blue background */
+    padding: 15px 0; /* Add some padding for better spacing */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center align the navigation links */
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px; /* Add some spacing between navigation items */
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF; /* White text color */
+    font-size: 1.2em; /* Adjust font size */
+    font-weight: bold; /* Make the text bold */
+    text-transform: uppercase; /* Convert text to uppercase */
+    transition: color 0.3s ease; /* Add smooth color transition on hover */
+}
+
+nav a:hover {
+    color: darkcyan; /* Orange text color on hover */
+}
+gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+main img {
+    border-radius: 10px;
+    border: 2px solid darkcyan;
+    max-width: 100%;
+    height: auto;
+    transition: border-color 0.3s ease;
+}
+
+/* Heading Styles */
+main h4 {
+    color: white;
+}
+.col-sm-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px; /* Add some space between columns */
+}
+
+.col-sm-4 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Add border radius to images */
+    margin-bottom: 10px; /* Add some space between image and text */
+}
+/* Custom CSS for centering columns and changing border colors */
+.container-fluid .row {
+    justify-content: center; /* Center columns horizontally */
+}
+
+.col-sm-4 {
+    border: 2px solid white; /* Change border color to white */
+    padding: 15px; /* Add padding for better spacing */
+}
+
+footer {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px black;
+    background-color: hotpink;
+    color: black;
+    padding: none;
+    margin-top: auto; /* Push footer to bottom */
+    text-align: center;
+}
+
+

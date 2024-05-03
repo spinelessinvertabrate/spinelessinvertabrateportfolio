@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300;1,600&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    text-align: center;
+     border: 5px solid transparent; /* Set the border width and make it transparent */
+    border-image: linear-gradient(to bottom, #ccccff 1%, #ff99ff 100%); /* Apply the gradient as the border image */
+    border-image-slice: 1; /* Slice the border image to fit the border size */
+    background-color: ivory;
+}
+h1 {
+    font-weight: bold;
+    font-size: 16px;
+}
+/* Change the background of h2 tags to light blue */
+h2 {
+    background-color: lightblue;
+    color: white; /* Optionally, you can change the text color to white */
+    padding: 10px;
+}
+p {
+    font-size: 16px; /* Set your desired font size */
+    line-height: 32px; /* Adjust line height to create a double space */
+  }
+#title {
+    text-align: center;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+a:link {
+    color: purple;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: black;
+}
+
+.logo {
+    max-width: 275px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background-color: 5px solid transparent; /* Set the border width and make it transparent */
+    border-color: linear-gradient(to bottom, #ccccff 1%, #ff99ff 100%); /* Apply the gradient as the border image */
+    border-image-slice: 1; /* Slice the border image to fit the border size */
+
+}
+.float-right{
+    float: right;
+    max-width:40%;
+    height: auto;
+    margin-left: 30px;
+}
+.table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 5px solid #000000;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+th {
+    background-color: lightblue;
+    color: white;
+    padding: 10px;
+    border-bottom: 5px solid #000000;
+}
+
+td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: center;
+}
+
+input[type=submit] {
+    background-color: red;
+    color: white; /* Add text color property */
+}
+
+#home-hero {
+    background-image: url(images/guitars.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #FF00FE;
+    text-shadow: 2px 2px 2px black;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.contact-form {
+    text-align: center; /* Center align the form horizontally */
+    margin: 0 auto; /* Center the form container horizontally */
+    max-width: 600px; /* Adjust the maximum width as needed */
+
+    /* Add any additional styling as needed */
+}
+
+.contact-form h2 {
+    font-size: 1.5em; /* Adjust the font size as needed */
+}
+
+.contact-form form {
+    text-align: left; /* Reset the text alignment for form fields */
+    padding: 20px; /* Add padding around the form */
+}
+
+.contact-form table {
+    width: 100%;
+}
+
+.contact-form table th,
+.contact-form table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="submit"],
+.contact-form input[type="reset"] {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Add any additional styling for form elements as needed */
+
+/* Vertical Navigation bar */
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+nav a:link {
+    color: white;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    color: gray;
+}
+
+nav a:active {
+    color: lightgray;
+}
+
+nav {
+    background-color: lightpink;
+    border-top: 2px coral solid;
+    border-bottom: 2px coral solid; /* Correct the property name */
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid gray;
+    padding: 10px;
+    border: 5px solid transparent; /* Set the border width and make it transparent */
+    border-image: linear-gradient(to bottom, #ccccff 1%, #ff99ff 100%); /* Apply the gradient as the border image */
+    border-image-slice: 1; /* Slice the border image to fit the border size */
+    background-color: lightpink;
+}
+
+header {
+    text-align: center;
+     background: linear-gradient(to bottom, #ccccff 0%, #ff99ff 100%);
+    background-attachment: fixed; /* This ensures the gradient stays fixed as you scroll */
+    background-color: ivory; /* This is the background color for the rest of the page */
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+     border: 5px solid transparent; /* Set the border width and make it transparent */
+    border-image: linear-gradient(to bottom, #ccccff 1%, #ff99ff 100%); /* Apply the gradient as the border image */
+    border-image-slice: 1; /* Slice the border image to fit the border size */
+}
+/* CSS for the first image */
+.float-right {
+    float: right;
+    max-width: 40%;
+    height: auto;
+    margin-left: 10px;
+}
+
+/* CSS for the second image */
+.float-left {
+    float: left;
+    max-width: 40%;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Create a content container for the text and images */
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+/* Apply styles to the content text */
+.content-text {
+    flex: 1;
+}
+
+/* CSS for Tablets */
+
+@media only screen and (max-width: 1024px) {
+    h1 {
+        text-align: center;
+        font-size: 4em;
+    }
+}
+
+/* CSS for smartphones */
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
