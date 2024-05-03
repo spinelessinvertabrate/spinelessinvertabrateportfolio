@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <h1>Iris Programmer</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="game.html">Game</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+    </nav>
+    <div class="home-hero">
+        <h1>Welcome to my portfolio</h1>
+    </div>
+    <main>
+        <h1>About Me</h1>
+        <hr>
+        <img src="images/iris.jpg" height="446" width="640" alt="photo of me" class="home-photo">
+        <p>Hello! My name is Iris Mirski.
+
+         I study Web Design and Web Programming at Saint Paul College in St. Paul, Minnesota. I created this website as a portfolio of my skills.
+
+I have taken the following classes at Saint Paul College:
+<ol>
+    <li>Web Fundamentals</li>
+    <li>Adobi Animate 1</li>
+    <li>Game Design 1</li>
+    <li>Hype Animation</li>
+</ol>
+I'm honing my skills and delving into the intersection of technology and creativity. My enthusiasm lies in digital art. I find solace and inspiration in the natural world. Alongside my academic pursuits, 
+
+my hobbies include:
+<ol>
+    <li>Hiking</li>
+    <li>Sailing</li>
+    <li>Record Collecting</li>
+    <li>Comic Making</li>              
+    <li>Pinting</li>
+    <li>Photography</li>
+    <li>Gaming</li>
+</ol>
+<br>
+<br>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="images/comic.png" alt="" class="img-fluid">
+            <h4>art example 1</h4>
+        </div>
+        <div class="col-sm-4">
+            <img src="images/comic2.png" alt="" class="img-fluid">
+            <h4>art example 2</h4>
+        </div>
+        <div class="col-sm-4">
+            <img src="images/romance.png" alt="" class="img-fluid">
+            <h4>art example 3</h4>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="images/bumbybee.png" alt="" class="img-fluid">
+            <h4>art example 1</h4>
+        </div>
+        <div class="col-sm-4">
+            <img src="images/loon.png" alt="" class="img-fluid">
+            <h4>art example 2</h4>
+        </div>
+        <div class="col-sm-4">
+            <img src="images/mush.png" alt="" class="img-fluid">
+            <h4>art example 3</h4>
+        </div>
+    </div>
+</div>
+ I'm also deeply engaged in video games and game development, leveraging my artistic talents to craft immersive experiences. I firmly believe in the transformative power of art to communicate, evoke emotions, and build connections. My journey is one of continuous exploration and growth as I seek to make meaningful contributions to the creative landscape. I hope you enjoy exploring my website.</p>
+
+              <p>Photos taken in Saint Paul MN by Iris Mirski.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Photo Gallery -->
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="gallery">
+            <div class="preview">
+              <img id="preview" src="images/preview.png" alt="" />
+            </div>
+            <div class="gallery-thumbnails" style="margin:0 auto;text-align:center; display: flex; flex-wrap: wrap; justify-content: center;">
+              <img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/photo1.png" alt="" />
+              <img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="images/photo2.png" alt="" />
+              <img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="images/photo3.png" alt="" />
+              <img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/photo4.png" alt="" />
+              <img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="images/photo5.png" alt="" />
+              <img onclick="document.getElementById('preview').src = document.getElementById('img6').src;" id="img6" src="images/photo6.png" alt="" />
+              <img onclick="document.getElementById('preview').src = document.getElementById('img7').src;" id="img7" src="images/photo7.png" alt="" />
+              <img onclick="document.getElementById('preview').src = document.getElementById('img8').src;" id="img8" src="images/photo8.png" alt="" />
+              <img onclick="document.getElementById('preview').src = document.getElementById('img9').src;" id="img9" src="images/photo9.png" alt="" />
+              <img onclick="document.getElementById('preview').src = document.getElementById('img10').src;" id="img10" src="images/photo10.png" alt="" />
+              <img onclick="document.getElementById('preview').src = document.getElementById('img11').src;" id="img11" src="images/photo11.png" alt="" />
+              <img onclick="document.getElementById('preview').src = document.getElementById('img12').src;" id="img12" src="images/photo12.png" alt="" />
+               <img onclick="document.getElementById('preview').src = document.getElementById('img13').src;" id="img13" src="images/photo13.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </main>
+<footer>
+        <hr>
+        <div class="home-hero">
+            <p><a href="https://saintpaul.edu" target="_blank">Saint Paul College</a></p>
+            <p><a href="mailto:iris.mirski@my.saintpaul.edu" target="-blank">Email Me</a> &bull;
+                <a href="tel:6124257712">Call Me</a> &bull;
+                <a href="sms:6124257712">Text Me</a>
+            </p>
+            <small>&copy; Iris Mirski. All rights reserved.</small>
+        </footer>
+</body>
+</html>
